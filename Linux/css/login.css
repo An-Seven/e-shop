@@ -1,0 +1,26 @@
+body{background: #999999;}
+.login{ width:500px; height:600px;margin: 50px auto; background: #fff; border-radius: 15px;box-shadow:  0 0 38px rgba(0,0,0,.18);}
+.login .logo{text-align: center; width: 100%; overflow: hidden;margin-bottom: 40px; }
+.login .logo img{ display: block; width: 150px; height: 150px;  margin:20px auto 0px;  }
+.login .logo h4{ font:  22px/35px "";}
+.login .info{width: 400px; margin: 0 auto;}
+.login .info .use{display: flex; height: 50px; width: 100%; box-shadow:  0 0 10px rgba(0,0,0,.28); border-radius: 10px; overflow: hidden; margin-bottom: 20px;}
+.login .info .use .uselogo{width: 50px; height: 50px; background: url(../images/use.png) no-repeat center; background-size: 25px 25px;  }
+.login .info .use .user{flex: 1;  border: none; outline: none;font: 18px/50px "";padding-left:10px ;}
+
+.login .info .password{display: flex; height: 50px; width: 100%; box-shadow:  0 0 10px rgba(0,0,0,.28); border-radius: 10px; overflow: hidden; margin-bottom: 20px;}
+.login .info .password .paslogo{width: 50px; height: 50px; background: url(../images/password.png) no-repeat center; background-size: 25px 25px;  }
+.login label{height: 50px; width: 350px;  position: relative; display: flex; align-items: center;}
+.login label s{display:block;  background:#dc4d44; color: #fff; position: absolute; right: 5px; padding: 3px; border-radius: 5px;  display: none;}
+.login .info .password .psd{flex: 1;  border: none; outline: none;font: 18px/50px "";padding-left:10px ;}
+
+
+.login .remember {width: 400px; margin: 0 auto 40px;}
+.login .remember a.rem{ width: 20px;height: 20px; background: url(../images/unchecked.png) no-repeat center; display: block; background-size: 20px 20px; float: left;}
+.login .remember a.active{background: url(../images/checked.png);background-size: 20px 20px;}
+.login .remember span{font: 14px/20px "";color: #999999; float: left; margin-left: 6px; cursor: pointer;}
+.login .remember .b{font: 14px/20px "";color: #5f7ed7;float: left; margin-left: 180px; cursor: pointer;}
+.login .remember i{font: 14px/20px "";color: #5f7ed7;float: right; margin-left: 12px; cursor: pointer;}
+
+
+.login .submit{width: 400px;display: block; margin: 0 auto; height: 50px; font: 22px/50px ""; color: #fff; background: #5f7ed7; border-radius: 10px; outline: none; border: none; cursor: pointer;}

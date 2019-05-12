@@ -1,0 +1,186 @@
+article{
+    width: 1100px;
+    margin: 15px auto; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    .shopCart{
+        min-height: 600px;
+        background: #fff;
+        h4{
+           
+            height: 60px;
+            background:#fafafa;
+            font: 20px/60px "";
+            padding-left: 20px;
+            border-bottom:1px solid #e5e5e5 ;
+        }
+        .empty{
+            margin-top:150px ;
+            display: none;
+        }
+        .shoplist{
+            display: block;
+            width: 1000px; 
+            margin: 20px auto;
+            .title{ 
+                display: flex;
+                height: 30px;
+                line-height: 30px;
+                margin-bottom: 5px;
+                border-bottom:1px solid #e5e5e5 ;
+                .checkbox{
+                    width: 60px;
+                    display: flex;
+                    
+                    .box{width: 16px; 
+                         height: 16px; 
+                         display: block; 
+                         border-radius: 50%; 
+                         border: 1px solid #e5e5e5;
+                         display: flex;
+                         align-items:center ; 
+                         justify-content: center; 
+                         box-sizing: border-box;    
+                         font: 14px/30px "";
+                         color: #000000;
+                         margin-right: 10px;       
+                         margin-top: 5px;
+                         s{
+                             display: block;
+                             width: 8px;
+                             height: 8px;
+                             border-radius: 50%;
+                             background: #216ED9;
+                         }
+                         }
+                }
+                .pic{
+                    width: 150px;
+                }
+                .name{
+                    width: 350px;
+                }
+                .per-price{
+                    width: 100px;
+                }
+                .count{
+                    width: 150px;
+                }
+                .subtotal{
+                    width: 100px;
+                }
+                .handle{
+                    flex: 1;
+                }
+            }
+            .list{display: flex;
+                height: 80px;
+
+                align-items: center;
+
+                .checkbox{
+                    width: 60px;
+                    .box{
+                        width: 16px; 
+                         height: 16px; 
+                         display: block; 
+                         border-radius: 50%; 
+                         border: 1px solid #e5e5e5;
+                         display: flex;
+                         align-items:center ; 
+                         justify-content: center; 
+                         box-sizing: border-box;    
+                         font: 14px/30px "";
+                         color: #000000;
+                         margin-right: 10px;       
+                        s{
+                            display: block;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            background: #216ED9;
+                        }
+                    }
+                    
+                }
+                .pic{
+                    text-align: center;
+                    width: 150px;
+                    img{
+                    width: 80px;
+                    height: 80px;
+                    }
+                }
+                .name{ width: 350px;}
+                .per-price{
+                    font: 16px/80px "";
+                    width: 100px;
+                    height: 80px;
+                    
+                    i{color: #dc4d44;}
+                    .price{color: #dc4d44}
+                }
+                .count{
+                        width: 150px;
+                        height: 30px;
+                        border: 1px solid #e5e5e5;
+                        display: flex;
+                        margin-left: -10px;
+                        box-sizing: border-box;
+                        
+                        .reduce{
+                            width: 40px;
+                            height: 100%;
+                            display: block;
+                            font:  700 20px/30px "";
+                            text-align: center;
+                            cursor: pointer;
+                            &:hover{
+                                background:#e5e5e5 ;
+                            }
+                        }
+                        .num{
+                            height: 100%;
+                            width: 70px;
+                            border: none;
+                            outline: none;
+                            text-align: center;
+                        }
+                        .jia{width: 40px;
+                            height: 100%;
+                            display: block;
+                            font: 20px/30px "";
+                            text-align: center;
+                            cursor: pointer;
+                            &:hover{
+                                background:#e5e5e5 ;
+                            }
+                            }
+                }
+                .subtotal{
+                    width: 100px;
+                    margin-left: 10px;
+                    font: 16px/80px "";
+                    width: 100px;
+                    height: 80px;
+                    
+                    i{color: #dc4d44;}
+                    span{color: #dc4d44}
+                    }
+                .del{
+                    
+                    cursor: pointer;
+                    &:hover{color: #fff;
+                            background: #216ED9;
+                            padding: 10px;
+                            border-radius:5px ;
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}

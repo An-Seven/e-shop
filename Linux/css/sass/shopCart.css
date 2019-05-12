@@ -1,0 +1,153 @@
+article {
+  width: 1100px;
+  margin: 15px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box; }
+  article .shopCart {
+    min-height: 600px;
+    background: #fff; }
+    article .shopCart h4 {
+      height: 60px;
+      background: #fafafa;
+      font: 20px/60px "";
+      padding-left: 20px;
+      border-bottom: 1px solid #e5e5e5; }
+    article .shopCart .empty {
+      margin-top: 150px;
+      display: none; }
+    article .shopCart .shoplist {
+      display: block;
+      width: 1000px;
+      margin: 20px auto; }
+      article .shopCart .shoplist .title {
+        display: flex;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #e5e5e5; }
+        article .shopCart .shoplist .title .checkbox {
+          width: 60px;
+          display: flex; }
+          article .shopCart .shoplist .title .checkbox .box {
+            width: 16px;
+            height: 16px;
+            display: block;
+            border-radius: 50%;
+            border: 1px solid #e5e5e5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            font: 14px/30px "";
+            color: #000000;
+            margin-right: 10px;
+            margin-top: 5px; }
+            article .shopCart .shoplist .title .checkbox .box s {
+              display: block;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+              background: #216ED9; }
+        article .shopCart .shoplist .title .pic {
+          width: 150px; }
+        article .shopCart .shoplist .title .name {
+          width: 350px; }
+        article .shopCart .shoplist .title .per-price {
+          width: 100px; }
+        article .shopCart .shoplist .title .count {
+          width: 150px; }
+        article .shopCart .shoplist .title .subtotal {
+          width: 100px; }
+        article .shopCart .shoplist .title .handle {
+          flex: 1; }
+      article .shopCart .shoplist .list {
+        display: flex;
+        height: 80px;
+        align-items: center; }
+        article .shopCart .shoplist .list .checkbox {
+          width: 60px; }
+          article .shopCart .shoplist .list .checkbox .box {
+            width: 16px;
+            height: 16px;
+            display: block;
+            border-radius: 50%;
+            border: 1px solid #e5e5e5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            font: 14px/30px "";
+            color: #000000;
+            margin-right: 10px; }
+            article .shopCart .shoplist .list .checkbox .box s {
+              display: block;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+              background: #216ED9; }
+        article .shopCart .shoplist .list .pic {
+          text-align: center;
+          width: 150px; }
+          article .shopCart .shoplist .list .pic img {
+            width: 80px;
+            height: 80px; }
+        article .shopCart .shoplist .list .name {
+          width: 350px; }
+        article .shopCart .shoplist .list .per-price {
+          font: 16px/80px "";
+          width: 100px;
+          height: 80px; }
+          article .shopCart .shoplist .list .per-price i {
+            color: #dc4d44; }
+          article .shopCart .shoplist .list .per-price .price {
+            color: #dc4d44; }
+        article .shopCart .shoplist .list .count {
+          width: 150px;
+          height: 30px;
+          border: 1px solid #e5e5e5;
+          display: flex;
+          margin-left: -10px;
+          box-sizing: border-box; }
+          article .shopCart .shoplist .list .count .reduce {
+            width: 40px;
+            height: 100%;
+            display: block;
+            font: 700 20px/30px "";
+            text-align: center;
+            cursor: pointer; }
+            article .shopCart .shoplist .list .count .reduce:hover {
+              background: #e5e5e5; }
+          article .shopCart .shoplist .list .count .num {
+            height: 100%;
+            width: 70px;
+            border: none;
+            outline: none;
+            text-align: center; }
+          article .shopCart .shoplist .list .count .jia {
+            width: 40px;
+            height: 100%;
+            display: block;
+            font: 20px/30px "";
+            text-align: center;
+            cursor: pointer; }
+            article .shopCart .shoplist .list .count .jia:hover {
+              background: #e5e5e5; }
+        article .shopCart .shoplist .list .subtotal {
+          width: 100px;
+          margin-left: 10px;
+          font: 16px/80px "";
+          width: 100px;
+          height: 80px; }
+          article .shopCart .shoplist .list .subtotal i {
+            color: #dc4d44; }
+          article .shopCart .shoplist .list .subtotal span {
+            color: #dc4d44; }
+        article .shopCart .shoplist .list .del {
+          cursor: pointer; }
+          article .shopCart .shoplist .list .del:hover {
+            color: #fff;
+            background: #216ED9;
+            padding: 10px;
+            border-radius: 5px; }

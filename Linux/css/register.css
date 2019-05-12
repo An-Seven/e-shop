@@ -1,0 +1,24 @@
+body{background: #999999;}
+.register{width: 500px;height:600px;margin: 50px auto; background: #fff; border-radius: 15px;box-shadow:  0 0 38px rgba(0,0,0,.18); overflow: hidden;}
+.register h4{ font:  22px/60px ""; height: 60px; background: #f8f8f8; text-align: center; box-shadow: 0 0 8px rgba(0,0,0,.18) ;}
+.register ul{padding: 20px;width: 400px; margin: 0 auto;}
+.register ul li{ height: 50px;margin-bottom: 20px; border: 1px solid #e5e5e5; width: 400px;  border-radius: 5px; overflow: hidden;}
+.register ul li span{width: 50px; height: 50px; display: block; float: left;display: flex; align-items: center; justify-content: center;background: #f8f8f8;}
+.register ul li span img{ width: 25px; height: 25px;}
+.register ul li label{ height: 50px; width: 350px;  position: relative; display: flex; align-items: center;}
+.register ul li input{float: left;box-shadow: inset 0 0 3px rgba(0,0,0,.08); border: none;  height: 50px; width: 350px; display: block;font: 18px/50px "";box-sizing: border-box; padding-left: 10px;  outline: none; }
+.register ul li s{ display:block;  background:#dc4d44; color: #fff; position: absolute; right: 5px; padding: 3px; border-radius: 5px; display: none;}
+.register ul li.user{margin-top: 20px;}
+.register ul li.message{display: flex;  overflow: hidden;}
+.register ul li.message p{width: 250px;border: 1px solid #e5e5e5; display: flex; } 
+.register ul li.message p label{ height: 50px; width: 200px;  box-sizing: border-box;}
+.register ul li.message p .msg{width: 200px; box-sizing: border-box;}
+.register ul li .send{  cursor: pointer; padding: 0px;}
+.register ul li .send:hover{background: #CCCCCC;}
+.register .agreement{width: 400px; margin: -20px  auto 0; display: flex;}
+.register .agreement i{display: block; width: 30px; height: 30px; background: url(../images/unchecked.png) no-repeat center; background-size: 20px 20px;}
+.register .agreement span{display: block; font:14px/30px "" ;}
+
+.register .submit{display: block; width: 400px; height: 50px; margin: 0 auto;border-radius: 10px; outline: none; border: none; cursor: pointer;color: #fff; background: #5f7ed7; font: 22px/50px "";  margin-top: 30px;}
+
+.register .submit:hover{background: #5f5ed7; }

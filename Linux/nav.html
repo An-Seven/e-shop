@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<style>
+			nav{}
+			nav .nav .first li{float:left; width: 100px;}
+			nav .nav .first li .second{width: 100%; position: relative; display: none;}
+			nav .nav .first li .second li{height: 20px;}
+			nav .nav .first li .second li .third{ position: absolute; left: 100px; top: 0;display: none; }
+			
+		</style>
+	</head>
+	<body>
+		
+		<nav>
+			<div class="nav layout">
+			<ul class="first">
+				<li>
+					<a href="#">首页</a>
+					
+					<ul class="second">
+						<li> 
+							<a href="#">二级</a>
+							<ul class="third">
+								<li><a href="#">三级</a></li>
+								<li><a href="#">三级</a></li>
+								<li><a href="#">三级</a></li>
+							</ul>
+						</li>
+						<li> 
+							<a href="#">二级</a>
+							<ul class="third">
+								<li><a href="#">三级1</a></li>
+								<li><a href="#">三级2</a></li>
+								<li><a href="#">三级3</a></li>
+							</ul>
+						</li>
+					</ul>
+					
+				</li>
+				
+				<li>
+					<a href="#">手机</a>
+					<ul class="second">
+						<li> 
+							<a href="#">二级</a>
+							<ul class="third">
+								<li><a href="#">三级</a></li>
+								<li><a href="#">三级</a></li>
+								<li><a href="#">三级</a></li>
+							</ul>
+						</li>
+						<li> 
+							<a href="#">二级</a>
+							<ul class="third">
+								<li><a href="#">三级1</a></li>
+								<li><a href="#">三级2</a></li>
+								<li><a href="#">三级3</a></li>
+							</ul>
+						</li>
+					</ul>
+					
+				</li>
+			</ul>
+		 </div>
+		</nav>
+		
+		 <!--<div id="search">
+			        <input type="text">
+			        <button></button>
+			        <ul class="search-res">
+			        </ul>
+		 </div>-->
+	</body>
+	<script src="libs/jquery.js"></script>
+	<script>
+		$(".first li").mouseover(function(){
+			$(this).find(".second").css({"display":"block"});
+		});
+		
+		$(".first li").mouseout(function(){
+			$(this).find(".second").css({"display":"none"});
+		});
+		
+		$(".second li").mouseover(function(){
+			$(this).find(".third").css({"display":"block"});
+		});
+		
+		$(".second li").mouseout(function(){
+			$(this).find(".third").css({"display":"none"});
+		});
+		
+		
+//		class Nav{
+//			constructor(){
+//				this.first = $(".first li");
+//				this.second = $(".second li");
+//				this.er = $(".second");
+//				this.san =$(".third");
+//				this.third = $(".third li");
+//				this.init();
+//			}
+//			init(){
+//				var that = this;
+//				this.first.mouseover(function(){
+//					that.display();
+//				});
+//				this.second.mouseover(function(){
+//					that.san.css({"display":"block"})
+//				})
+//			}
+//			display(){
+//				this.first
+//			}
+//		}
+//		 new Nav();
+	</script>
+</html>
